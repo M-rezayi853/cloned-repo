@@ -1,13 +1,13 @@
 import React from 'react';
 
-import HomePage from './HomePage';
+import Homepage from './pages/homepage/homepage';
 import './App.css';
 
 
 const App = props => {
   return (
     <div>
-      <HomePage />
+      <Homepage />
     </div>
   );
 };
